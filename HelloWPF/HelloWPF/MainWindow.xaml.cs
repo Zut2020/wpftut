@@ -24,5 +24,11 @@ namespace HelloWPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            szoveg.Text = "Megynyomtad a gombot!";
+            //gomb.Margin = new Thickness(0,170,0,0);
+        }
     }
 }
